@@ -6,6 +6,16 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "vue": {
+    "pwa":{
+      
+    "name": "Xiaomi App",
+    "shortName": "Xiaomi",
+    "themeColor": "#212529",
+    "appleMobileWebAppCapable": "yes",
+    "appleMobileWebAppStatusBarStyle": "black-translucent"
+    }
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
